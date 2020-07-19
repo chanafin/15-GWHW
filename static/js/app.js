@@ -62,7 +62,6 @@ function buildchart(sample){
           mode: "gauge+number+delta",
           value: wfreq,
           title: { text: "Belly Button Washing Frequency", font: { size: 24 } },
-          delta: { reference: 0, increasing: { color: "darkgreen" } },
           gauge: {
             axis: { range: [null, 10], tickwidth: 1, tickcolor: "darkblue" },
             bar: { color: "darkblue" },
