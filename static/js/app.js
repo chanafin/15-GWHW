@@ -1,5 +1,6 @@
 
 d3.json('samples.json').then(function(data){
+  //console.log(data)
     names = data.names;
     meta = data.metadata;
     samples = data.samples;
