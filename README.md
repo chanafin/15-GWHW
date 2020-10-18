@@ -6,5 +6,7 @@ The first step is to perform the JSON call, which in this case is a call to the 
 
  There are now two separate functions that need to be built to construct visuals in the dashboard. Buildmeta indentifies the bootstrap panel and clears the existing HTML within the panel. The metadata is filtered to match the sample
 
+The link to this project is located here: 
 
+https://chanafin.github.io/d3_bacteria/
 
