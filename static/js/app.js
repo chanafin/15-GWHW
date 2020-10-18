@@ -21,17 +21,7 @@ function buildmeta(sample) {
         })    
     }
 
-function buildchart(sample){
 
-    var result_array = samples.filter(d=> d.id == sample)
-    var result = result_array[0]
-    var otu_ids = result.otu_ids;
-    var otu_labels = result.otu_labels
-    var sample_value = result.sample_values  
-    var top_samples = sample_value.sort((a,b)=> b.id - a.id).slice(0,10).reverse()
-    var filteredmeta = meta.filter(d => d.id == sample)
-    var wfreq = filteredmeta[0]['wfreq']
-    
     var data = [{
     type: 'bar',
     x: top_samples,
