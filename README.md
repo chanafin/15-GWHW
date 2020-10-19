@@ -8,7 +8,9 @@ The first step is to perform the JSON call, which in this case is a call to the 
 
  There are still 3 visualizations that need to be created and all 3 will be created within the buildchart function and will use Plotly for each graph. Before constructing the plots, it is important to indentify the values from the filtered data that will be used in each graph. 'result_array' represents the entire sample specific to the selected ID. Once the array is identified, the required OTU, OTU labels, Wash Frequency and Sample Values can be extracted, as well as the samples with the highest recorded values, which is idenified by sorting the sample_value variable and slicing the top 10. 
 
- Once all the required values have been correctly extracted, each graph's data and layout are configured.
+ Once all the required values have been correctly extracted, each graph's data and layout are configured via Plotly documentation.
+
+
 
 The link to this project is located here: 
 
