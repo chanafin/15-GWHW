@@ -90,7 +90,11 @@ function buildchart(sample){
         font: { color: "darkblue", family: "Arial" }
       };
     
-        
+        Plotly.newPlot('bubble', bubbledata, bubblelayout)
+        Plotly.newPlot('bar', data, layout);
+        Plotly.newPlot('gauge', gaugedata, gaugelayout)
+  
+};
     
 
 
